@@ -1,0 +1,39 @@
+package Animal;
+
+public class Animal {
+	int QuantPatas;
+	String Especie;
+	double Peso;
+	
+	public Animal(int QuantPatas,String Especie,double Peso) {
+		this.QuantPatas = QuantPatas;
+		this.Especie = Especie;
+		this.Peso = Peso;
+	}
+	public int getQuantPatas() {
+		return QuantPatas;
+	}
+	public void setQuantPatas (int QuantPatas) {
+		this.QuantPatas = QuantPatas;
+	}
+	
+	public String getEspecie() {
+		return Especie;
+	}
+	public void Especie (String Especie) {
+		this.Especie = Especie;
+	}
+	
+	public double getPeso() {
+		return Peso;
+	}
+	public void setPeso (double Peso) {
+		this.Peso = Peso;
+	}
+	
+	public void Dados() {
+		System.out.println("Quantidade de patas: "+this.getQuantPatas());
+		System.out.println("Especie: "+this.getEspecie());
+		System.out.println("Peso: "+this.getPeso()+" Kilos");
+	}
+}
