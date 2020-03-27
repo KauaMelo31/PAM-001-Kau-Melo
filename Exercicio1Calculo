@@ -1,0 +1,8 @@
+package Animal;
+import java.util.Scanner;
+public class Calculo {
+	public static void main(String[] args) {
+	Animal a = new Animal (4,"Chow-Chow", 45);
+	a.Dados();
+	}
+}
